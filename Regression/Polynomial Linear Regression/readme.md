@@ -14,3 +14,25 @@ Where:
 - b0, b1, b2, b3, ..., bn are the coefficients
 - ε is the error term
 
+## Intuition
+
+The intuition behind polynomial regression is that sometimes, the relationship between variables isn't a straight line but instead forms a curve. By adding higher-order terms like 
+�
+2
+x 
+2
+ , 
+�
+3
+x 
+3
+ , and so on, you can capture more complex relationships between your variables.
+
+For example, if your data points seem to follow a quadratic pattern (like a U shape), using a polynomial regression with 
+�
+2
+x 
+2
+  can help your model better fit the data.
+
+So, in simple terms, polynomial regression lets you fit a curve to your data, allowing for more flexibility and better capturing the underlying relationship between variables.
