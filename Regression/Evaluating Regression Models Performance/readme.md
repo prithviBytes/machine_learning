@@ -15,6 +15,28 @@ Where:
 SSR = Sum of Squared Residuals
 SST = Sum of Squared Total
 
+### Formula for SSR
+
+SSR is the sum of the squared differences between the actual value of the dependent variable and the value predicted by the regression line. It is calculated using the formula:
+
+SSR = Σ(yi - ŷi)^2
+
+Where:
+
+yi = actual value of the dependent variable
+ŷi = predicted value of the dependent variable
+
+### Formula for SST
+
+SST is the sum of the squared differences between the actual value of the dependent variable and the mean of the dependent variable. It is calculated using the formula:
+
+SST = Σ(yi - ȳ)^2
+
+Where:
+
+yi = actual value of the dependent variable
+ȳ = mean of the dependent variable
+
 ## Interpretation
 
 R-squared is always between 0 and 100%. An R-squared of 100% means that all movements of a dependent variable are completely explained by movements in the independent variable(s) you are interested in. In general, the higher the R-squared, the better the model fits your data.
